@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap');
+
+
+.title-section h1{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    box-shadow: 0 0 20px rgb(202, 200, 200);
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.contact-info .adress{
+    display: flex;
+  
+}
+
+.contact-info .adress img{
+    margin-right: 20px;
+    height: 30px;
+}
+
+.contact-info .adress .location_icon{
+    height: 40px;
+}
+.contact-info h2{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.contact-info p{
+    font-family: sans-serif;
+    color: gray;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #2E73DA;
+}
+
+.title-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-info  h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.title-info  img {
+    height: 300px;
+}
+
+ /* Find us section  */
+
+ .find-us{
+    text-align: center;
+    display: block;
+    justify-content: center;
+ }
+
+ .find-us h1{
+    margin: 40px 0;
+    font-size: 30px;
+    font-family: sans-serif;
+ }
+
+ .find-us img {
+    width: 800px;
+    height: 400px;
+    margin-bottom: 40px;
+ }
+
+
+   /* Message section  */
+ .message-section{
+    text-align: center;
+ }
+
+ 
+ .message-section h1{
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: sans-serif;
+ }
+
+  
+ .message-section h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+ }
+
+ 
+
+ .message-section input{
+    width: 800px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding-left: 10px;
+ }
+ .message-section button{
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+ }

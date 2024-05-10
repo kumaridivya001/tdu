@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap');
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-top h3{
+  font-family: sans-serif;
+}
+.about-top h1 {
+    margin: 15px 0;
+    font-family: sans-serif;
+}
+.about-top img{
+    width: 450px;
+    height: 400px;
+}
+
+.about-top p{
+    margin-bottom: 15px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+
+/* team section start  */
+
+.wrapper{
+    display: none;
+}
+
+.team-section .title{
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 30px 0;
+    margin-top: -50px;
+   }
+  
+      .slide-container{
+        max-width: 1120px;
+        width: 100%;
+        padding: 50px 0;
+        background: #E7F3F9;
+        margin-bottom: 20px;
+      }
+      .slide-content{
+        margin: 0 40px;
+        overflow: hidden;
+        border-radius: 25px;
+      }
+    
+      .image-content,
+      .card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 14px;
+      
+      }
+      .image-content{
+        position: relative;
+        row-gap: 5px;
+        padding: 25px 0;
+      }
+      .overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 25px 25px 0 25px;
+      }
+      .overlay::before,
+      .overlay::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: -40px;
+        height: 40px;
+        width: 40px;
+      }
+     
+      .card-image{
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        padding: 3px;
+      }
+      .card-image .card-img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .name{
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+        margin: 5px 0;
+      }
+      .description{
+        font-size: 14px;
+        color: #707070;
+        margin: 5px 0;
+      }
+    
+      .know-more-link{
+        margin: 10px 0;
+        color: #2E73DA;
+        text-decoration: none;
+      }
+    
+      .swiper-navBtn{
+        color: #6E93f7;
+        transition: color 0.3s ease;
+      }
+      .swiper-navBtn:hover{
+        color: #4070F4;
+      }
+      .swiper-navBtn::before,
+      .swiper-navBtn::after{
+        font-size: 35px;
+      }
+      .swiper-button-next{
+        right: 0;
+      }
+      .swiper-button-prev{
+        left: 0;
+      }
+      .swiper-pagination-bullet{
+        background-color: #6E93f7;
+        opacity: 1;
+      }
+      .swiper-pagination-bullet-active{
+        background-color: #4070F4;
+      }
+     
+     
+  
+  
+    /* testimonial secion start  */
+  
+  .testimonial{
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 0px;
+  }
+  
+  .testimonial .headings h1{
+      font-family: sans-serif;
+      font-weight: lighter;
+  }
+  .testimonial .headings h3{
+      font-family: sans-serif;
+      font-weight: lighter;
+      margin-top: 40px;
+  }
+  
+  .testimonial .headings p{
+      font-family: sans-serif;
+      color: gray;
+      margin-top: 20px;
+      margin-bottom: 40px;
+  }
+  .testimonial  img{
+      height: 300px;
+  }
+  
+  
+   /* foter section start  */
+  
+  .subscibe{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #494A49;
+      background: #E7F3F9;
+      padding: 60px 0;
+  }
+  
+  
+  .subscibe h1{
+      font-family: sans-serif;
+  }
+  
+  .subscibe input{
+      width: 400px;
+      padding: 15px 10px;
+      border: none;
+      box-shadow: -1px 1px 10px gray ;
+      border-radius: 5px;
+  }
+  
+  
+  .subscibe .right {
+      align-items: center;
+      color: gray;
+  }
+  .subscibe .right  label{
+      margin-right: 180px;
+      align-items: center;
+  }
+  .subscibe .right  img{
+      height: 20px;
+      margin-right: 5px;
+  }
+  
+  
+  
+       
+
